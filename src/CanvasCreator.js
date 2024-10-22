@@ -5,6 +5,7 @@ let canvasCreator = {
     width: WIDTH,
     height: HEIGHT,
 
+    console.log("hello")
     create: function () {
         canvas = document.createElement("canvas");
         canvas.width = this.width;
